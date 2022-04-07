@@ -1,0 +1,6 @@
+scrape_configs:
+  - job_name: 'artping_monitoring'
+    scrape_interval: 10s
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['artping-backend:8000']
