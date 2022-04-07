@@ -1,0 +1,32 @@
+.calendar-props-row {
+    display: block;
+    width:300px;
+    padding-right: 5px;;
+}
+
+.calendar-content-wrapper {
+    overflow-y: auto;
+    /*height: 570px;*/
+    line-height: normal;
+}
+.calendar-slider{
+    padding-left: 170px;
+    padding-bottom: 10px;
+}
+
+.calendar-row {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.calendar-month-wrapper {
+    display: block;
+}
+
+.calendar-month-wrapper>h2 {
+    display: block !important;
+    font-size: 110%;
+    font-weight: 600;
+    padding-left: 7px;
+    border: solid #e5e7eb 2px;
+}

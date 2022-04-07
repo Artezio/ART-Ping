@@ -1,0 +1,111 @@
+{
+  "appLayout": {
+    "settingNotification": "Настройка уведомлений",
+    "check": "ПРОВЕРКА",
+    "administration": "Администрирование"
+  },
+  "pages": {
+    "check": {
+      "successMessage": "Спасибо, что ты с нами! Пожалуйста, не отключайся.",
+      "hereButton": "Я ТУТ!"
+    },
+    "settings": {
+      "menuItems": {
+        "users": "Пользователи",
+        "systemsSettings": "Системные параметры"
+      },
+      "systemSettings": {
+        "param": "Параметр",
+        "defaultValue": "Значение по умолчанию",
+        "dalayTime": "Время ожидания ответа на проверку (мин)",
+        "allowedResponseTime": "Допустимое время ответа на проверку (мин)",
+        "autoCheckCount": "Рекомендованное число автопроверок в день",
+        "cancelButton": "ОТМЕНА",
+        "saveButton": "СОХРАНИТЬ",
+        "controllerLabel": "Значение",
+        "helperText": {
+          "range": "Введите значение от {{min}} до {{max}}",
+          "rangeSpecific": "(не более времени ожидания ответа на проверку или 30 мин.)"
+        }
+      },
+      "userSettings": {
+
+      }
+    },
+    "subscribe": {
+      "firstTitle": "1. Разреши показывать уведомления",
+      "subTitle": "Необходимо разблокировать отображение уведомлений в браузере.",
+      "secondTitle": "2. Разреши браузеру работать в фоне",
+      "thirdTitle": "3. Не пропусти проверку!",
+      "allowButton": "Разрешить уведомления",
+      "doneButton": "Все сделал!"
+    },
+    "employee": {
+      "footerCell": "Выбрано {{countSelectedRows}} из {{countAllRows}}",
+      "today": "Сегодня",
+      "day": "День",
+      "week": "Неделя",
+      "month": "Месяц",
+      "check": "ПРОВЕРИТЬ",
+      "autoCheck": "АВТОПРОВЕРКА",
+      "searchLabel": "Поиск",
+      "office": "Офис",
+      "allOffices": "Все офисы",
+      "project": "Проект",
+      "allProjects": "Все проекты",
+      "noProjectItem": "Нет активных проектов",
+      "clearButton": "ОЧИСТИТЬ",
+      "seachButton": "НАЙТИ",
+      "plannedCheck": "Автоматическая проверка",
+      "amountCheckLabel": "Кол-во проверок",
+      "amountCheckHelperText": "Значение должно быть, не меньше 1 и не больше {{recommendedDailyChecks}}",
+      "firedStatus": "Уволен",
+      "firedStatusShort": "у",
+      "hospitalStatus": "Больничный",
+      "hospitalStatusShort": "Б",
+      "vacationStatus": "Отпуск",
+      "vacationStatusShort": "О",
+      "inProgressEmployees": "Для сотрудников {{employees}} нельзя запустить новую проверку пока не завершится предыдущая.",
+      "absentEmployees": "Сотрудники {{employees}} находятся на больничном или в отпуске",
+      "changeForCheckTitle": "Выбрать для проверки",
+      "changeAllForCheckTitle": "Выбрать всех для проверки",
+      "employee": "Сотрудник",
+      "checkInit": "Проверка успешно инициирована",
+      "notifications": {
+        "send": "Отправлено",
+        "received": "Получено",
+        "noSubscription": "Нет подписки",
+        "noSend": "Не отправлено",
+        "weekend": "Для сотрудников {{employees}} текущий день является выходным или праздничным. Вы действительно хотите запустить проверку?",
+        "planedCheck": "Для сотрудников {{employees}} уже запланирована проверка. Вы действительно хотите создать и запустить еще одну проверку?"
+      },
+      "response": "Получен ответ:",
+      "startCheck": "Начало проверки:",
+      "statusTitle": "Статус:",
+      "notificationTitle": "Уведомление:",
+      "initiation": "Инициировано:",
+      "tooltipStatuses": {
+        "successful": "успешно",
+        "noSuccessful": "не успешно",
+        "inProcess": "в процессе",
+        "noAnswer": "нет ответа",
+        "planed": "запланирована"
+      }
+    },
+    "error": {
+      "access": "Недостаточно прав для просмотра этой страницы",
+      "unknown": "Произошла неизвестная ошибка"
+    }
+  },
+  "dialogs": {
+    "cancelText": "Отмена",
+    "continueText": "Продолжить",
+    "okText": "Ок",
+    "startText": "Запустить",
+    "messages": {
+      "cancelChanges": "Изменения не будут сохранены. Продолжить?",
+      "saveStatus": "Изменения успешно сохранены",
+      "errorStatus": "Ошибка, изменения не сохранены"
+    }
+  }
+}
