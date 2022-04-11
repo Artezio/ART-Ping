@@ -17,7 +17,7 @@ Use [Postgres](https://www.postgresql.org) min version 13.4. Use [configuration 
 User’s name can be different but, in this case, reconfigure the application access to the Database, see below.
 User’s login and password are fixed in [`application.properties`](/backend/src/main/resources/application.properties)
 
-2. In an initial state create just a User, Database and the User’s access to the empty database
+2. In an initial state create just a User, Database and the User’s access to the empty database.
 For creating and updating the structure of the database use [liquibase](https://www.liquibase.org). For scripts executions change in  \backend\src\main\resources\application.properties the following properties:
    ```properties 
    spring.datasource.url=jdbc:postgresql://host:5432/art_ping_db
@@ -82,7 +82,7 @@ Add the backend link in target section of the [file](frontend/src/setupProxy.js)
 
 
 ## Usage
-To work with the application on a regular base as a user you need Firefox или Chrome. 
+To work with the application on a regular base as a user you need Firefox or Chrome. 
 Save the link send by the Administrator in your bookmarks or favorites and allow 
 notifications and geolocation.
 
